@@ -51,6 +51,8 @@ class Program
     }
 }
 ```
+![Pilas](./Pilas.png)
+
 ## Cola
 Una Cola es una estructura de datos que sigue el principio FIFO (First In, First Out).
 Esto significa que el primer elemento en entrar es el primero en salir.
@@ -95,6 +97,7 @@ class Program
     }
 }
 ```
+![Colas](./Colas.png)
 
 ## Listas enlazadas
 Una Lista Enlazada es una colección de nodos, donde cada nodo contiene un valor y una referencia al siguiente nodo.

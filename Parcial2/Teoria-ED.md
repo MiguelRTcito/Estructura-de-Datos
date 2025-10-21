@@ -139,4 +139,4 @@ class Program
     }
 }
 ```
-![Listas](./ListasEnlazadas.png)
+![Listas](https://www.google.com/imgres?q=tda%20listas%20enlazadas&imgurl=https%3A%2F%2Fblogger.googleusercontent.com%2Fimg%2Fb%2FR29vZ2xl%2FAVvXsEi4FqR29Kzx81lecfLJJPnnwSRvjqRQEVmey1Ylfj6EAzHzinVVm13aBFVa-gdSFNpG2wBosOkJ6zelL-S4yk_49BI9zf2R07T70ZvEYzkFGPfgpoi8HolUaBaZBmiNcDQZkH1xeVuVeLI%2Fs1600%2Flista.png&imgrefurl=http%3A%2F%2Fprogramacionparacoccidio.blogspot.com%2F2013%2F01%2Flistas-enlazadas-en-c-orientado-objetos.html&docid=XsKdINp1vYmlHM&tbnid=87xeUH4f2owIfM&vet=12ahUKEwiBhfO3praQAxW6sGoFHaZJKh4QM3oECB4QAA..i&w=304&h=225&hcb=2&ved=2ahUKEwiBhfO3praQAxW6sGoFHaZJKh4QM3oECB4QAA)

@@ -1,12 +1,68 @@
 # Estructura de datos
 
-Un tipo de **dato abstracto** es un modelo que define un conjunto de datos y las operaciones que estos pueden generar.
-Sus clasificaciones mas comunes son:
+Una estructura de datos es una forma organizada de almacenar y gestionar información dentro de un programa para que pueda ser utilizada de manera eficiente.
+Un tipo de dato abstracto (TDA) define un conjunto de datos y las operaciones que se pueden realizar sobre ellos, sin preocuparse por cómo están implementados internamente.
 
-- Pilas
-- Colas
-- Listas enlazadas: simplemente y doblemente enlazadas
+## Clasificación de las estructuras de datos
 
+## Lineales
+Los datos se organizan de manera secuencial, donde cada elemento tiene un predecesor y un sucesor (excepto el primero y el último).
+
+- **Arreglos** 
+- **Pilas**
+- **Colas**
+- **Listas enlazadas**
+
+## Arreglos
+Un arreglo (array) es una colección de elementos del mismo tipo, almacenados de forma contigua en memoria.
+Los elementos se acceden mediante índices.
+
+- **Unidimensional (vector/array)**
+ Es una estructura de datos que almacena una colección ordenada de elementos del mismo tipo, accesibles a través de un solo índice. Se puede visualizar como una fila con casillas, donde cada casilla (posición) contiene un dato y es identificada por un número de índice. 
+
+ ```c#
+ using System;
+
+class Program
+{
+    static void Main()
+    {
+        int[] numeros = { 10, 20, 30, 40, 50 };
+
+        Console.WriteLine("Elementos del arreglo:");
+        for (int i = 0; i < numeros.Length; i++)
+        {
+            Console.WriteLine($"Índice {i}: {numeros[i]}");
+        }
+    }
+}
+ ```
+ ![Unidimensionales](./Unidimensional.png)
+
+ - **Multidimensional (matriz, etc)**
+Un arreglo multidimensional es una estructura de datos que almacena elementos organizados en más de una dimensión, como una tabla con filas y columnas.
+```c#
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int[,] matriz = { { 1, 2 }, { 3, 4 }, { 5, 6 } };
+
+        Console.WriteLine("Elementos de la matriz:");
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 2; j++)
+            {
+                Console.Write(matriz[i, j] + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+}
+```
+![Multidimensional](./Multidimensional.png)
 ## Pilas
 Estructura de datos que sigue el principio LIFO (Last In - First Out), lo que indica que el ultimo en entrar sera el primero
 en salir. 
@@ -52,6 +108,7 @@ class Program
 }
 ```
 ![Pilas](./Pilas.png)
+
 
 ## Cola
 Una Cola es una estructura de datos que sigue el principio FIFO (First In, First Out).

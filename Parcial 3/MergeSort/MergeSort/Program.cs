@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class MergeSort
+public class MergeSort //merge sort en C#
 {
     public static void MergeSortArray(int[] array)
     {

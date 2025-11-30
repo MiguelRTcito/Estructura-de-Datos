@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Recurisividad
+public class Recurisividad //Factorial
 {
     public static int Factorial(int n)
     {
